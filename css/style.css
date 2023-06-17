@@ -1,0 +1,205 @@
+
+body
+{
+    display:flex;
+    justify-content:center;
+    background-image:url("../assets/images/bg-pattern-top-desktop.svg"),url("../assets/images/bg-pattern-bottom-desktop.svg");
+    background-position:top left,bottom right;
+    background-repeat: no-repeat,no-repeat;
+}
+
+
+
+#container
+{
+    margin-top:100px;
+    width:1100px;
+    height:500px;
+    padding:20px;
+}
+
+#firstPart
+{
+    display:flex;
+    justify-content:row;
+    height:40%;
+    margin-bottom:75px;
+
+
+}
+
+#presentation
+{
+    width:50%;
+
+}
+
+#presentation h3
+{
+    line-height:0.9em;
+    color:hsl(300, 43%, 22%);
+    margin:0px;
+    width:60%;
+    font-size:3.0em;
+    font-weight:700;
+}
+
+#presentation p
+{
+    line-height:1.5em;
+    font-size:15px;
+    width:75%;
+    font-weight:bold;
+    color:hsl(303, 10%, 53%);
+}
+#rating
+{
+    padding-top:25px;
+    width:50%;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+
+}
+
+
+
+.score
+{
+    padding:5px;
+    margin:0px;
+    height:20%;
+    width:85%;
+    border-radius:10px;
+    background-color:hsl(300, 24%, 96%);
+    display:flex;
+    flex-direction:row;
+    
+    align-items:center;
+    font-weight:bold;
+
+}
+
+.score:nth-child(2)
+{
+    margin-left:35px;
+}
+
+.score:nth-child(3)
+{
+    margin-left:65px;
+}
+.score .star
+{
+    margin-left:30px;
+    margin-right:30px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    width:25%;
+
+}
+
+.score  p
+{
+    color:hsl(300, 43%, 22%);
+    margin:0px;
+    font-size:15px;
+    font-weight:bold;
+
+}
+
+#secondPart
+{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+
+}
+
+
+
+.testimony
+{
+    height:60%;
+    padding:30px;
+    border-radius:10px;
+    background-color: hsl(300, 43%, 22%);
+    width:26%;
+}
+
+.testimony .identity
+{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+
+}
+
+.testimony .identity p
+{
+    margin:0%;
+    line-height:1.3em;
+    color:white;
+    font-size:15px;
+}
+
+.testimony .identity em
+{
+    color:hsl(333, 80%, 67%);
+}
+
+.testimony p
+{
+    line-height:1.5em;
+    color: hsl(0, 0%, 100%);
+}
+
+
+
+.profilePic
+{
+    margin-right:20px;
+    border-radius:40px;
+    width:40px;
+    height:40px;
+    background-size:contain;
+}
+
+.testimony:nth-child(2)
+{
+    margin-top:15px;
+}
+
+.testimony:nth-child(3)
+{
+    margin-top:30px;
+}
+
+.testimony:nth-child(1) .profilePic
+{
+   background-image:url("../assets/images/image-colton.jpg");
+}
+
+.testimony:nth-child(2) .profilePic
+{
+   background-image:url("../assets/images/image-irene.jpg");
+}
+
+.testimony:nth-child(3) .profilePic
+{
+   background-image:url("../assets/images/image-anne.jpg");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
